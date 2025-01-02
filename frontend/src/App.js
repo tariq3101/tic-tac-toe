@@ -42,7 +42,7 @@ function App() {
     <div className="game">
       <div className="status">
         {checkWinner() ? `Winner: ${checkWinner()}` : isDraw() ? "It's a Draw!" : `Player ${isXNext ? 'X' : 'O'}'s Turn`}
-        <button onClick={() => { setBoard(initialState); setIsXNext(true); }}>
+        <button className='reset-button' onClick={() => { setBoard(initialState); setIsXNext(true); }}>
           Reset
         </button>
       </div>
