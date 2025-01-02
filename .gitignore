@@ -1,0 +1,19 @@
+# Ignore everything inside the frontend folder's node_modules and build directories
+frontend/node_modules/
+frontend/build/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Environment variables
+frontend/.env
+
+# Editor directories and files
+frontend/.idea/
+frontend/.vscode/
+frontend/*.swp
+
+# Miscellaneous
+frontend/.DS_Store
